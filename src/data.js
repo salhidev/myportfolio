@@ -1,4 +1,3 @@
-import ris from "./images/RIS.jpeg"
 export const projects = [
     {
       title: "RIS",
