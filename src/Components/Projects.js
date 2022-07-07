@@ -24,7 +24,7 @@ export default function Projects() {
               className="w-1/2 w-100 p-4 flex">
               <div className="flex-1 relative">
             
-                <div className="flex-1 px-8 py-10 relative z-10 w-full h-full border-4 border-gray-800 bg-gray-900 ">
+                <div className="flex-1 px-8 py-10 relative z-10 w-full h-full border-4 border-gray-800 bg-gray-900 py-6 rounded-lg transform transition duration-500 hover:scale-105">
                   <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
                     {project.subtitle}
                   </h2>
