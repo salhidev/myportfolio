@@ -23,12 +23,8 @@ export default function Projects() {
               key={project.image}
               className="w-1/2 w-100 p-4 flex">
               <div className="flex-1 relative">
-                <img
-                  alt="gallery"
-                  className="flex-1 absolute inset-0 w-full h-full object-cover object-center"
-                  src={project.image}
-                />
-                <div className="flex-1 px-8 py-10 relative z-10 w-full h-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
+            
+                <div className="flex-1 px-8 py-10 relative z-10 w-full h-full border-4 border-gray-800 bg-gray-900 ">
                   <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
                     {project.subtitle}
                   </h2>
