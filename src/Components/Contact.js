@@ -44,8 +44,7 @@ export default function Contact() {
                 ADDRESS
               </h2>
               <p className="mt-1">
-                97 Warren St. <br />
-                New York, NY 10007
+                Midlothian, Virginia
               </p>
             </div>
             <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
