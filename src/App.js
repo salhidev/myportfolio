@@ -6,7 +6,7 @@ import Navbar from "./Components/Navbar";
 import Projects from "./Components/Projects";
 import Skills from "./Components/Skills";
 import Testimonials from "./Components/Testimonials";
-
+import SideNav from "./Components/SideNav";
 function App() {
   return (
     <main  className="text-gray-400 bg-gray-900 body-font">
@@ -16,6 +16,7 @@ function App() {
       <Skills />
       <Testimonials />
       <Contact />
+      <SideNav />
     </main>
   );
 }
