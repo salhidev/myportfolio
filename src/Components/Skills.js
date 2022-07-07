@@ -1,18 +1,28 @@
 import { BadgeCheckIcon, ChipIcon } from "@heroicons/react/solid";
-import React from "react";
+import React, { useEffect }  from "react";
 import { skills } from "../data";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function Skills() {
+  useEffect(() => {
+    AOS.init({
+      delay: 400,
+      duration: 1200,
+      once: false,
+    })
+    AOS.refresh();
+  }, []);
   return (
     <section id="skills">
       <div className="container px-5 py-10 mx-auto">
-        <div className="text-center mb-20">
+        <div className="text-center mb-20" data-aos="fade-in">
           <ChipIcon className="w-10 inline-block mb-4" />
           <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
             Skills &amp; Technologies
           </h1>
         </div>
-        <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+        <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2" data-aos="fade-up">
           {skills.map((skill) => (
             <div key={skill} className="p-2 sm:w-1/2 w-full">
               <div className="bg-gray-800 rounded flex p-4 h-full items-center">
