@@ -13,7 +13,7 @@ export const projects = [
       description:
         "Instrumental in multi-year system rewrite of the Legislative Information System from COBOL + DB2 to .NET Core + Azure + SQL Server. Specific roles included architectural development of micro-services API layer, unit tests, API regression tests and Azure devops CI/CD pipelines. Project used Scrum methodologies.",
       image: "images/LIS.jpeg",
-      link: "https://qa.lis.virginia.gov",
+      link: "https://prod.lis.virginia.gov",
     },
     {
       title: "Library Reference Center",
@@ -21,7 +21,7 @@ export const projects = [
       description:
         "Full Stack developement of library portal and administration using React + .Net Core 3.1 + SQL Server",
       image: "images/lrc.jpeg",
-      link: "https://lrc.dls.virginia.gov",
+      link: "https://lrc-test-app.azurewebsites.net/Home",
     },
     {
       title: "DLAS Contracts",
