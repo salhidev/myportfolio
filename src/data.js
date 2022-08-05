@@ -1,7 +1,7 @@
 export const projects = [
     {
       title: "RIS",
-      subtitle: ".Net Core and React",
+      subtitle: ".Net Core 2.1 and React",
       description:
         "Worked on rewriting the Regulation Information System (RIS) from Lotus Notes + COBOL + DB2 to .NET Core + ReactJS + SQL Server. The app is used by Virginia agencies to file regulations and related items with the Virginia Registrar of Regulations for publication in the Virginia Register of Regulations. Roles included full-stack development as well as contributing to the legacy data migration from Lotus Notes to SQL Server.",
       image: "images/RIS.jpeg",
@@ -9,7 +9,7 @@ export const projects = [
     },
     {
       title: "LIS",
-      subtitle: ".Net Core and React",
+      subtitle: ".Net Core 3.1 and React",
       description:
         "Instrumental in multi-year system rewrite of the Legislative Information System from COBOL + DB2 to .NET Core + Azure + SQL Server. Specific roles included architectural development of micro-services API layer, unit tests, API regression tests and Azure devops CI/CD pipelines. Project used Scrum methodologies.",
       image: "images/LIS.jpeg",
@@ -17,7 +17,7 @@ export const projects = [
     },
     {
       title: "Library Reference Center",
-      subtitle: ".Net Core and React",
+      subtitle: ".Net Core 3.1 and ReactJS",
       description:
         "Full Stack developement of library portal and administration using React + .Net Core 3.1 + SQL Server",
       image: "images/lrc.jpeg",
@@ -25,12 +25,28 @@ export const projects = [
     },
     {
       title: "DLAS Contracts",
-      subtitle: ".Net Core and React",
+      subtitle: ".Net Core 3.1 and React",
       description:
         "Full Stack developement of the DLAS Contracts administration app using React + .Net Core 3.1 + SQL Server",
       image:  "images/Contracts.jpeg",
       link: "https://apps.dlas.virginia.gov/Contracts",
     },
+    {
+      title: "Virginia State Budget",
+      subtitle: "ASP.NET, FriendlyUrls, iTextSharp, ADO.NET, Entity Framework and quite a bit of jQuery, Bootstrap and some AJAX web service calls",
+      description:
+        "Responsible for the State Budget system codebase maintenance which required wide understanding of the internals of the software and systems, along with developing new features and fixing bugs.",
+      image:  "images/Contracts.jpeg",
+      link: "https://budget.lis.virginia.gov",
+    },
+    {
+      title: "JLARC Recommendation Tracking",
+      subtitle: ".Net 5.0 and ReactJS",
+      description:
+        "Instrumental in building a recommendations tracking web application for the Joint Legislative Audit and Review Commission. The system streamlines JLARC current recommendation process and increases efficiency and reduces opportunity for error. The new system allows state agencies to login, view their recommendations, enter or update recommendation status and savings and submit to JLARC staff for review and approval.",
+      image:  "images/Contracts.jpeg",
+      link: "https://jlarctracking-test-app.azurewebsites.net",
+    }
   ];
 
   export const skills = [
