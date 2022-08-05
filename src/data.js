@@ -75,4 +75,20 @@ export const projects = [
         company: "Georgia Southern University",
         quote: "I’m happy to recommend Ayoub Salhi as a talented, motivated web/software developer. He was employed as a student developer in the Enterprise Technology Solutions (formerly Enterprise Application Services) department of Information Technology Services at Georgia Southern University from October 2014 through December 2015. \n I supervised Ayoub in his role as student developer for a short period from October — December 2015 and in that time was impressed with his self-motivation, technical skills and enthusiasm for learning new technologies. Ayoub is responsible, polite and has a great attitude; he follows through on what he says he’ll do and meets deadlines. \n In his role with our department, Ayoub developed new web and mobile applications and provided troubleshooting and other assistance on existing sites and applications, demonstrating his knowledge of HTML5/CSS, PHP, MySQL, scripting and API programming. \n One of Ayoub’s strongest contributions to our department was in the development of mobile beacon technology. Ayoub presented his work on the mobile beacon project, including a functional demonstration of the technology, to key leadership at the University which enabled us to get the buy-in we needed to move forward with using the new technology on campus. \n If you would like to discuss anything further, please feel free to contact me at rhickey @georgiasouthern.edu. \n Sincerely,",
       }
+  ] ;
+  export const feedBacks =[
+    {
+        name: "Terri Edwards",
+        role: "RIS Admin User - Senior Operations Staff Assistant",
+        image: "",
+        company: "Division of Legislative Systems",
+        quote: "The most important aspect of RIS 2.0 for me is the build of the cumulative table in the program. I can now complete the cumulative table in about half the time it used to take me to do it; instead of creating a new entry for each amended, repealed, or new section in that issue, the entry is now automatically generated for the new issue, and all I need to do is add the page numbers. This has saved a tremendous amount of time!",
+      },
+      {
+        name: "Rhonda Dyer",
+        role: "RIS Admin User - Publications Assistant",
+        image: "",
+        company: "Division of Legislative Systems",
+        quote: "I like the create permanent copy feature under the history tab. It saves time."
+      }
   ] 
